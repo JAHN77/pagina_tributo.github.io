@@ -1,0 +1,178 @@
+
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(127, 126, 136, 0.103);
+}
+#title, #tribute-info{
+    font-family: 'YoungSerifRegular';
+    font-weight:normal;
+    font-style: normal;
+}
+
+#tribute-info{
+    
+    text-align: center;
+    font-size: 30px;
+
+}
+#main{
+    
+    background-color: rgba(127, 126, 136, 0.103);
+}
+
+#title{
+    
+    text-align: center;
+}
+#img-div{
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#image{
+    max-width: 90%;
+    height:auto; 
+    display: block;
+    background-color: rgb(170, 159, 140);
+    border-radius: 100%;
+    margin:auto;
+    
+}
+
+#img-caption{
+    text-align:center;
+}
+figure{
+    display: block;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    display: block;
+    background-size: cover;
+    margin: auto;
+    max-width: 600px;
+    height: auto;
+    
+}
+
+
+ul{
+    margin: 0px 40px;
+    
+}
+li{
+    line-height:30px;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 100%;
+    height: auto;
+
+}
+
+#tribute-link{
+    margin: auto;
+}
+
+.imagen{
+    max-width: 90%;
+    height:auto; 
+    margin:auto;
+}
+
+/* Tarea: CSS media queries */
+/* desktop*/
+@media screen and (max-width: 1440px){
+    #tribute-info{
+        margin:auto 200px;
+    }
+    #image{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .imagen{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+
+/* laptop*/
+@media screen and (max-width: 1023px) and (min-width: 769px){
+    #tribute-info{
+        margin:auto 200px;
+    }
+
+    .imagen{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Tablet*/
+@media screen and (max-width: 768px) and (min-width: 481px){
+    #image{
+        display: block;
+        max-width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    #img-div{
+        background: white;
+        padding: 5px;
+    }
+
+    #tribute-info{
+        margin:auto 100px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) and (min-width: 300px){
+    #title{
+        margin-bottom:20px;
+        font-size: 30px;
+        
+    }
+    h3{
+        margin: 20px 0px;
+    }
+    #tribute-info{
+        margin:20px;
+    }
+    #main{
+        margin: 20px;
+    }
+    #image{
+        display: block;
+        max-width: 80%;
+        height: auto;
+        margin: auto;
+    }
+   
+   .contenedor{
+    height: 120%;
+    margin: 0;
+
+   }
+    .imagen{
+        width:120% ;
+        height: auto;
+       
+    }
+    
+    #img-div{
+        background: white;
+        padding: 10px;
+        margin: 0;
+        width:95% ;
+    }
+
+}
